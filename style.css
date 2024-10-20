@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+  height: 100vh;
+  background-image: url("imagenes/Biblioteca.jfif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contenedor {
+  width: 500px;
+  height: 400px;
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
+  margin: 0px 50px;
+  font-size: 16pt;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
